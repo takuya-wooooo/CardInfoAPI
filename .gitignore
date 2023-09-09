@@ -6,3 +6,4 @@ pyvenv.cfg
 .env
 /cards/__pycache__
 /cards/migrations/__pycache__
+openapi.json
