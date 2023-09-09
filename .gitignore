@@ -2,8 +2,7 @@
 /include
 /lib
 pyvenv.cfg
-CardInfoAPI/__pycache__/__init__.cpython-311.pyc
-CardInfoAPI/__pycache__/settings.cpython-311.pyc
+/CardInfoAPI/__pycache__/
 .env
-CardInfoAPI/__pycache__/urls.cpython-311.pyc
-CardInfoAPI/__pycache__/wsgi.cpython-311.pyc
+/cards/__pycache__
+/cards/migrations/__pycache__
