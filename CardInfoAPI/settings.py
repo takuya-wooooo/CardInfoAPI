@@ -41,7 +41,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_filters',
+    'rest_framework',
     'rest_framework.authtoken',
+    'cards'
 ]
 
 MIDDLEWARE = [
@@ -60,6 +62,7 @@ REST_FRAMEWORK = {
     ],
     'DEFAULT_FILTER_BACKENDS': ['django_filters.rest_framework.DjangoFilterBackend'],
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
+    'EXCEPTION_HANDLER': 'rest_framework_json_api.exceptions.exception_handler',
     'PAGE_SIZE': 10,
 }
 

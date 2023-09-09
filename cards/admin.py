@@ -1,3 +1,6 @@
 from django.contrib import admin
+import sys
+sys.path.append('../')
+from cards.models import CreditCard
 
-# Register your models here.
+admin.site.register(CreditCard)
