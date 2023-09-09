@@ -1,3 +1,8 @@
-from django.shortcuts import render
+from rest_framework import generics
+from .models import CreditCard
+from .serializers import CreditCardSerializer
 
-# Create your views here.
+
+class CreditCardListCreate(generics.ListAPIView):
+    queryset = CreditCard.objects.all()
+    serializer_class = CreditCardSerializer
