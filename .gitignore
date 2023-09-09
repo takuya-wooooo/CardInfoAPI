@@ -2,3 +2,5 @@
 /include
 /lib
 pyvenv.cfg
+CardInfoAPI/__pycache__/__init__.cpython-311.pyc
+CardInfoAPI/__pycache__/settings.cpython-311.pyc
