@@ -4,3 +4,5 @@
 pyvenv.cfg
 CardInfoAPI/__pycache__/__init__.cpython-311.pyc
 CardInfoAPI/__pycache__/settings.cpython-311.pyc
+.env
+CardInfoAPI/__pycache__/urls.cpython-311.pyc
