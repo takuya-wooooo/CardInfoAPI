@@ -195,7 +195,7 @@ sentry_sdk.init(
 
 # 全てのリクエストをHTTPSにリダイレクト
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-SECURE_SSL_REDIRECT = True
+SECURE_SSL_REDIRECT = False
 # 既存のクッキーを防止し安全なクッキーのみ使用
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
@@ -203,8 +203,7 @@ CSRF_COOKIE_SECURE = True
 # すべてのオリジンを許可しない
 CORS_ALLOW_ALL_ORIGINS = False
 CORS_ALLOWED_ORIGINS = [
-    "https://example.com",
-    "https://sub.example.com",
+    "https://127.0.0.1:8000",
 ]
 
 # セキュリティヘッダの設定
