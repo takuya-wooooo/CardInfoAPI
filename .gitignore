@@ -8,3 +8,4 @@ pyvenv.cfg
 /cards/migrations/__pycache__
 openapi.json
 debug.log
+backup/default-hei-MacBook-Air.local-2023-09-10-095622.dump
