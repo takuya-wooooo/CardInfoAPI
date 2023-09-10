@@ -7,3 +7,4 @@ pyvenv.cfg
 /cards/__pycache__
 /cards/migrations/__pycache__
 openapi.json
+debug.log
