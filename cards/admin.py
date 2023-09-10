@@ -1,6 +1,5 @@
 from django.contrib import admin
-import sys
-sys.path.append('../')
-from cards.models import CreditCard
+from .models import CreditCard, CardCategory
 
 admin.site.register(CreditCard)
+admin.site.register(CardCategory)
