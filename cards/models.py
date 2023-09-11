@@ -1,4 +1,5 @@
 from django.db import models
+from django.contrib.auth.models import User
 
 
 class CardCategory(models.Model):
@@ -15,3 +16,9 @@ class CreditCard(models.Model):
         null=True,
         blank=True
     )
+
+class CardReview(models.Model):
+    name = models.ForeignKey(CreditCard, on_delete=models.CASCADE)
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    rate = models.PositiveIntegerField
+    comment = models.TextField()
